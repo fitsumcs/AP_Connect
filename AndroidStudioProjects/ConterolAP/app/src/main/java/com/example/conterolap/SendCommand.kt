@@ -5,6 +5,7 @@ import android.util.Log
 import java.io.PrintWriter
 import java.net.Socket
 
+//this class runs in background 
 class SendCommand : AsyncTask<String?, Void?, Void?>() {
 
 
