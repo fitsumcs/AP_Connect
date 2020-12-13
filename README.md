@@ -6,7 +6,8 @@ Kotlin version of Wifi AP
 ###Here are the Instructions 
 
 1. //In SendCommand class you will creat avairbale 
-  var mContext: Context? = null
+
+    var mContext: Context? = null
   
 2. //creating constructer 
 
