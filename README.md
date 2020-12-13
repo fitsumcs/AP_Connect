@@ -5,12 +5,12 @@ Kotlin version of Wifi AP
 
 ###Here are the Instructions 
 
-1. //In SendCommand class you will change it to accep contex 
+1. //In SendCommand class you will change it to accept context 
 
     class SendCommand(val mcontext: Context): AsyncTask<String?, Void?, Void?>()
  
     
-2. //when you create SendCommand in Main Acitivt pass the conetex 
+2. //when you create SendCommand in Main Acitivt pass the context
 
     SendCommand(this).execute(editText!!.text.toString())
   
